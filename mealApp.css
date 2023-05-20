@@ -1,0 +1,525 @@
+body{
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+}
+/* ========================================Nav-Bar==================================================== */
+.nav{
+    height:70px;
+    width:1500px;
+    /* background-color: lightslategrey; */
+    display: flex;
+    flex-direction: row;
+
+}
+.logos{
+    height:100%;
+    width:10%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row-reverse;
+}
+.logos img{
+    height:100%;
+    width:50%;
+    border-radius: 50%;
+}
+.title{
+    height:100%;
+    width:18%;
+    /* background-color: aqua; */
+    /* color: floralwhite; */
+    font-size: 4rem;
+    font-weight: bold;
+    font-family:cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.homes{
+    height:100%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+}
+.favss{
+    height:100%;
+    width:55%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+
+.favds{
+    /* margin-right: 10%; */
+    /* position: fixed; */
+    background-color: rgb(54, 237, 54);
+    color:black;
+    font-weight: bold;
+    font-family: cursive;
+    /* outline: 0; */
+    border: 0px;
+    /* outline:none; */
+}
+/* ===========================================Main====================================================== */
+.mains{
+    height:630px;
+    width:1500px;
+}
+        /* -----------------------------------search-------------------------------------------------- */
+
+.search{
+    height:18%;
+    width: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+        background-color: darkslategray;
+
+}
+.label{
+    height:50%;
+    width:100%;
+    /* background-color: orchid; */
+    color:whitesmoke;
+    font-weight: bold;
+    font-size: 2.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.inp-img{
+    height:40%;
+    width:100%;
+    /* background-color: rgb(204, 168, 27); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#ford{
+    height:100%;
+    width:30%;
+    /* background-color: red; */
+    
+    /* padding-top: 1%; */
+    /* padding-left: 7%; */
+    
+  }
+  form {
+    width: 100%;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+   
+  }
+  .oo{
+    width:60%;
+    height:100%;
+    /* background-color: aqua; */
+  }
+  .tt{
+    width: 40%;
+    height: 100%;
+    /* background-color: green; */
+    background-color:#ffffff;
+    overflow: scroll;
+
+    
+  }
+
+  .tt::-webkit-scrollbar{
+    display: none;
+  }
+
+
+
+  ul {
+    list-style: none;
+  }
+  .lists {
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+    
+  }
+  .list-items {
+    padding: 10px 5px;
+    /* color:green; */
+
+  }
+  .list-items:hover {
+    background-color: #dddddd;
+  }
+
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 15px 10px;
+    border: none;
+    border-bottom: 1px solid #645979;
+    outline: none;
+    border-radius: 5px 5px 0 0;
+    background-color: #ffffff;
+    font-size: 16px;
+  }
+
+
+#in-search{
+  /* overflow: scroll; */
+  font-size: 2rem;
+  width: 100%;
+    height: 100%;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    outline:0;
+    padding-left: 10px;
+    /* transform: translate(-50%, -50%); */
+    
+    border: 0px; 
+}
+#in-search::placeholder{
+    font-size: 1rem;
+    font-weight: bold;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    /* margin-top: 100%; */
+    /* top:10%; */  
+}
+.s-imgs{
+    height:100%;
+    width:10%;
+    background-color: #fff;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.s-imgs img{
+    height:100%;
+    width:100%;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.displays{
+    height:82%;
+    width:100%;
+   
+}
+.c-dis{
+    height:100%;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+   
+    /* overflow: scroll; */
+    justify-content: center;
+}
+.c-dis::-webkit-scrollbar {
+    display: none;
+  }
+
+/* ==========================================Search-Result-Meal====================================================================== */
+.mealD{
+    height:48%;
+    width: 48%;
+    background-color: floralwhite;
+    border: 10px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+.mealCDO{
+    height:100%;
+    width: 60%;
+    /* background-color: cyan; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.mealCDO img{
+    height:80%;
+    width:80%;
+    object-fit: cover;
+}
+.mealCDT{
+    height:100%;
+    width: 40%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.mealButton{
+    height:23%;
+    width: 50%;
+    background-color: darkslategray;
+    border-radius: 1rem;
+    border: 0px;
+    color: whitesmoke;
+    font-family: fantasy;
+}
+
+
+                /*```````````````````````````````````````````````On-click-Section```````````````````````````````````````` */
+
+    .elm{
+        height:100%;
+        width: 100%;
+        /* background-color: rgb(140, 202, 222); */
+        border: 5px solid rgb(245, 238, 244);
+
+        border: 5px solid white;
+        display: flex;
+        flex-direction: column;
+        /* overflow: scroll; */
+        /* justify-content: space-around; */
+        /* justify-content: space-between; */
+        
+    }
+    .elm::-webkit-scrollbar{
+        display: none;
+    }
+
+
+    .cHead{
+        height:400px;
+        width:100%;
+        /* background-color: green; */
+        display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
+    }
+    .cHeadO{
+        height:100%;
+        width: 48%;
+        /* background-color: cyan; */
+        overflow: hidden;
+    }
+    .cImg{
+        height: 80%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .ccNames{
+        font-weight: bold;
+        height:20%;
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: floralwhite;
+    }
+
+    .cHeadT{
+        height:100%;
+        width: 48%;
+        overflow: hidden;
+        color:chocolate;
+        font-size: 1.2rem;
+        font-weight: bold;
+        background-color: floralwhite;
+        display: flex;
+    flex-direction: row;
+   
+    }
+    .cHeadTT{
+        height:100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        overflow: scroll;
+        color:darkslategray
+
+    }
+    .cHeadTT::-webkit-scrollbar{
+        display: none;
+    }
+    .cHeadTTT{
+        height:100%;
+        width: 50%;
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+    .mealButtonU{
+        height:10%;
+    width: 50%;
+    background-color: rgb(12, 210, 15);
+    border-radius: 1rem;
+    border: 0px;
+    color: whitesmoke;
+    font-family: fantasy;
+
+    }
+    
+
+
+
+
+    .cTail{
+        height:500px;
+        width:100%;
+        /* background-color: yellow; */
+        /* overflow: hidden; */
+
+    }
+    .descriptionss{
+        color:chocolate;
+                font-size: 1.2rem;
+        font-weight: bolder;
+        background-color: floralwhite;
+
+            border: 5px solid rgb(245, 238, 244);
+    }
+
+
+
+
+    .unFav{
+        height:23%;
+    width: 50%;
+    background-color: rgb(210, 45, 12);
+    border-radius: 1rem;
+    border: 0px;
+    color: whitesmoke;
+    font-family: fantasy;
+    }
+
+
+    .homea{
+        height:100%;
+        width: 100%;
+    }
+    .homea img{
+        height:100%;
+        width: 100%;
+    }
+
+    .dummy{
+        height:100%;
+        width: 100%;
+    }
+    .dummy img{
+        height:100%;
+        width: 100%;
+    }
+
+
+
+
+    
+      
+      
+
+/* =============================================================================================================== */
+/* .meal {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightgray
+} */
+
+/* Style for meal images */
+.meal img {
+    width: 50%;
+    /* max-height: 250px; */
+    height:50%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* Style for meal headings */
+.meal h2 {
+    overflow: scroll;
+    margin: 10px 0;
+    font-size: 24px;
+    text-align: center;
+    color: green;
+    
+}
+.meal h2::-webkit-scrollbar{
+    display: none;
+}
+
+.meal ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* ?margin-left: 20px; */
+    overflow:scroll;
+}
+.meal ul::-webkit-scrollbar{
+    display: none;
+}
+
+.meal li {
+    margin-bottom: 5px;
+}
+
+.meal button {
+    background-color: #fff;
+    border: none;
+    color: #ff5945;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.meal button:hover {
+    background-color: #ddd;
+}
+
+.description {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+p{
+    font-size: 20px;
+    margin-left: 10px;
+    word-spacing: 3px;
+    line-height: 35px;
+    text-align: justify;
+    color: blue;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+/*.mn{
+    color:deeppink;
+    background-color:grey ;
+}*/
